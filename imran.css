@@ -1,0 +1,154 @@
+body {
+    background: url(../img/background.png);
+    font-family: Arial, sans-serif;
+}
+*
+{box-sizing: border-box;}
+
+main {
+    /* border: 2px solid cyan; */
+    width: 60%;
+    margin: auto;
+    /* padding: 0 20px; */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 45px;
+    background-color: #E577B5;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+header h1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+h1, h2, h4 {
+    margin: 0;
+    color: palevioletred;
+}
+
+
+.logo {
+    color: white;
+    font-size: large;
+}
+
+.rainbow {
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.rainbow h2 {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+
+#contain {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(8, 0, 0, 0.767);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+main section {
+    /* border: 1px solid red; */
+    max-height: 333,3333333%;
+
+}
+
+#contain .acb {
+    max-height: 333,3333333%;
+    padding: 10px;
+} 
+
+.abcd {
+    width: 100%;
+
+}
+
+.abcd {
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    max-width: 250px;
+    margin: auto;
+}
+
+.phto img {
+    width: 250px;
+    height: 250px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.abcd figure {
+    width: 25%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.gmap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gmap div {
+    width: 50%;
+}
+
+.address {
+    padding-left: 100px ;
+}
+
+footer {
+    width: 80%;
+    height: 45px;
+    background-color: #E577B5;
+    margin: auto;
+    text-align: right;
+}
+
+/* Set the size of the div element that contains the map */
+/* #map {
+    height: 200px;
+    /* The height is 400 pixels */
+    /* width: 100%; */
+    /* The width is the width of the web page */
+  /* } */
